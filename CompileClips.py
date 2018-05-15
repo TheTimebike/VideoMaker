@@ -5,7 +5,7 @@ from moviepy.video.VideoClip import VideoClip
 from moviepy.video.compositing.CompositeVideoClip import CompositeVideoClip
 from moviepy.video.fx.resize import resize
 from moviepy.video.compositing.concatenate import concatenate_videoclips
-import glob, praw, urllib.request, os, sys, time
+import glob, urllib.request, os, sys, time
 clipList, creatorList, downloadList = [], [], []
 print("""
  _    ___     __           __  ___      __            
