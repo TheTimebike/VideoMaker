@@ -29,8 +29,8 @@ for x in subreddit:
         if x.url.startswith('https://gfycat.com/'):
             downloadList.append(x.url)
             creatorList.append(x.author)
-if len(downloadList) > 100:
-    limitNum = 100
+if len(downloadList) > 10:
+    limitNum = 10
 else:
     limitNum = len(downloadList)
 for x in range(0, limitNum):
